@@ -11,10 +11,11 @@
 ##
 ## Sanity check
 ##
-if [[ `lsb_release -rs` != "12.04" ]]; then
-   echo "This script is only known to work on Ubuntu 12.04, exiting...";
+if [[ `lsb_release -rs` != "16.04" ]]; then
+   echo "This script is only known to work on Ubuntu 16.04, exiting...";
    exit;
 fi
+
 
 ##
 ## Set ppa repository source for gcc/g++ 4.8 in order to install insights properly
