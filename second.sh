@@ -43,7 +43,7 @@ sudo -H pip install --upgrade virtualenv==13.1.2
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 50
 sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 50
 
-export OPENEDX_RELEASE="open-release/eucalyptus.2"
+export OPENEDX_RELEASE="open-release/ficus.1rc4"
 
 ## Did we specify an openedx release?
 if [ -n "$OPENEDX_RELEASE" ]; then
