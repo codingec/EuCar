@@ -11,7 +11,7 @@
 # UPGRADE_OS=true CONFIGURATION_VERSION="master" \
 # bash <(curl -s https://raw.githubusercontent.com/edx/configuration/master/util/install/ansible-bootstrap.sh)
 
-export OPENEDX_RELEASE="open-release/eucalyptus.2"
+export OPENEDX_RELEASE="open-release/ficus.1rc4"
 
 set -xe
 
